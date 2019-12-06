@@ -8,7 +8,11 @@
 #include <linux/blkdev.h>
 #include <linux/bio.h>
 #include <linux/string.h>
-#include "partition.h"
+
+#ifndef PARTITION_H
+#define PARTITION_H
+void copy_mbr_n_br(u8 *disk);
+#endif
 
 #define MEMSIZE 1024 
 # define KERNSIZE (512)
