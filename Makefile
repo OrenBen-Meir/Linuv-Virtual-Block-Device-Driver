@@ -8,6 +8,7 @@ clean:
 
 insert:
 	insmod myBlockDriver.ko
+	chmod 777 /dev/virtualdrive
 
 remove:
 	rmmod myBlockDriver
