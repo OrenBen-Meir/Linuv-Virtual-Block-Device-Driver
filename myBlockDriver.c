@@ -68,7 +68,7 @@ static PartTable def_part_table =
 		boot_type: 0x00,
 		start_head: 0x00,
 		start_sec: 0x1,
-		start_cyl: 0x0A, // extd partition start cylinder(BR location)
+		start_cyl: 0x0A, 
 		part_type: 0x05,
 		end_head: 0x00,
 		end_sec: 0x20,

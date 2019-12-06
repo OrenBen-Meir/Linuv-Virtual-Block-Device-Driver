@@ -5,7 +5,7 @@
 
 #define DEVICE_FILE "/dev/virtualdrive"
 
-#define DEV_DATA_SIZE 200 
+#define DEV_DATA_SIZE 512
 
 int main()
 {

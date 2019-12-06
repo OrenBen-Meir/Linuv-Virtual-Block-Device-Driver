@@ -23,11 +23,14 @@ This driver has however found to be unable to be compiled using version 5 kernel
 #### .4
 >Check the partition info using cat /proc/partitions as well as using 
 
+    lsblk
+>or
+
 	ls -l /dev/virtualdrive*
 >or 
 
 	sudo fdisk -l
->The device we created has 3 logical and extended partitioms
+>The device we created has 3 logical and extended partitions
 
 #### .5
 >Become root using
