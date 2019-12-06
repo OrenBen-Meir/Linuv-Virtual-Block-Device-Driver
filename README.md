@@ -1,9 +1,8 @@
 # Virtual Block Device Driver
 
-This driver has been tested and functional on MX_Linux with a 4.19 kernel. It is likely to be compadible with debian based
-distros including possibly unbuntu.
-This driver however wasn't able to compile using any Arch based distro. It is not recommended to run this on a rolling release
-distro unless you switch to an older kernel and use its corresponding linux-headers.
+This driver has been tested and functional on MX_Linux with a 4.19 kernel. It is most likely compatible with any kernel from version 2.6 to version 4.*
+
+This driver has however found to be unable to be compiled using version 5 kernels, in paricular kernel version 5.3
 
 #### 1.	
 >Go to the directory where the makefile is and write 
