@@ -33,11 +33,6 @@ This driver has however found to be unable to be compiled using version 5 kernel
 >The device we created has 3 logical and extended partitions
 
 #### .5
->Become root using
-
-	sudo -s
-
-#### .6
 >You have 2 alternative ways of doing I/O with your virtual block device
 >
 > #### a. Using a test program 
@@ -68,17 +63,12 @@ This driver has however found to be unable to be compiled using version 5 kernel
 
 	xxd /dev/virtualdrive | less
 
-#### .7
->Be sure to switch back from root by using the command
-
-	exit
-
-#### .8
+#### .6
 >remove the module using 
 
 	sudo make remove
 
-#### .9
+#### .7
 >clean the folder using
 
 	make clean
